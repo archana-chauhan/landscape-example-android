@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:textColor="#ffffff"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textAlignment="textStart"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn1"
+            android:text="Summary"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border"
+            android:textColor="#ffffff"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textAlignment="textStart"
+            android:paddingBottom="5dp"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn2"
+            android:text="Tires and Brakes"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border"
+            android:textColor="#ffffff"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textAlignment="textStart"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn3"
+            android:text="Fluid and Filters"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border"
+            android:textColor="#ffffff"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textAlignment="textStart"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn4"
+            android:text="Engine and battery"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_border"
+            android:textColor="#ffffff"
+            android:text="Trip"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textAlignment="textStart"
+
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn5"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
